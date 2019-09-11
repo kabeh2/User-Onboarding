@@ -12,8 +12,7 @@ const SignUpForm = ({ errors, touched, values, isSubmitting, status }) => {
 
     if (mounted) {
       if (status) {
-        setUsers([...users, status]);
-        console.log("Users: " + JSON.stringify(users));
+        setUsers(u => [...u, status]);
       }
     }
 
