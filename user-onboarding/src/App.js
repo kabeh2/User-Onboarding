@@ -1,13 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import { ValidationSchemaExample } from "./components/forms/form";
+import FormikSignUp from "./components/forms/FormikSignUp";
 
-function App() {
-  return (
-    <div className="App">
-      <ValidationSchemaExample />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <FormikSignUp />
+      </div>
+    );
+  }
 }
 
 export default App;
