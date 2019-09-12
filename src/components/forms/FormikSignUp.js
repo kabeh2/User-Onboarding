@@ -60,7 +60,7 @@ const SignUpForm = ({ errors, touched, values, isSubmitting, status }) => {
       </Form>
 
       <div className="user-list-container">
-        <h1>Regitered Users</h1>
+        <h1>Registered Users</h1>
         <ul>
           {users.map(user => (
             <li key={user.id}>{user.email}</li>
