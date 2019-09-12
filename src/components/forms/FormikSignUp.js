@@ -49,6 +49,7 @@ const SignUpForm = ({ errors, touched, values, isSubmitting, status }) => {
             name="termsOfService"
             checked={values.termsOfService}
           />
+          <span class="checkmark"></span>
           Accept Terms and Conditions
         </label>
         {errors.termsOfService && touched.termsOfService && (
